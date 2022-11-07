@@ -1,11 +1,10 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import HomeTemplate from '../templates/home/home.template'
 
 
 export default function Home() {
   return (
    <>
-   <h1>teste</h1>
+   <HomeTemplate/>
    </>
    
   )
