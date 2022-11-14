@@ -8,7 +8,7 @@ function Header() {
     {[ 'md'].map((expand) => (
       <Navbar key={expand} bg="dark" variant='dark' expand={expand} className="mb-3">
         <Container fluid>
-          <Navbar.Brand href="#"><Image style={{borderRadius:'10px'}} src="/static/images/logo.png" width="120" height="100"/></Navbar.Brand>
+          <Navbar.Brand href="#"><Image style={{borderRadius:'10px'}} src="/static/images/logo.png" width="120" height="100" alt='Logo'/></Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-${expand}`}
