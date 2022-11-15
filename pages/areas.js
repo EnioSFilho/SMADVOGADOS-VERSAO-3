@@ -1,7 +1,7 @@
 import React from 'react'
 import AreasTemplate from '../templates/areas/areas.template'
 
-function Areas() {
+function AreasPage() {
   return (
     <>
     <AreasTemplate/>
@@ -9,4 +9,4 @@ function Areas() {
   )
 }
 
-export default Areas
+export default AreasPage
