@@ -22,8 +22,8 @@ function Header() {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href="#action1">Início</Nav.Link>
-                <Nav.Link href="#action2">Áreas de Atuação</Nav.Link>               
+                <Nav.Link href="/">Início</Nav.Link>
+                <Nav.Link href="/areas">Áreas de Atuação</Nav.Link>               
                 <Nav.Link href="#action2">Artigos</Nav.Link>               
                 <Nav.Link href="#action2">Legislação</Nav.Link>               
                 <Nav.Link href="#action2">Localização</Nav.Link>               
