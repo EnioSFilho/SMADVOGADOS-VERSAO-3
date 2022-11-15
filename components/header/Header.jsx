@@ -25,7 +25,7 @@ function Header() {
                 <Nav.Link href="/">Início</Nav.Link>
                 <Nav.Link href="/areas">Áreas de Atuação</Nav.Link>               
                 <Nav.Link href="#action2">Artigos</Nav.Link>               
-                <Nav.Link href="#action2">Legislação</Nav.Link>               
+                <Nav.Link href="/tribunais">Tribunais</Nav.Link>               
                 <Nav.Link href="#action2">Localização</Nav.Link>               
                 <Nav.Link href="#action2">Fale Conosco</Nav.Link>               
               </Nav>             
