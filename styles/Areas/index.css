@@ -1,0 +1,25 @@
+.areas-title{
+    display: flex;
+    justify-content: center;
+}
+.areas-main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.areas-civil{
+    width: 500px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px;
+    text-align: justify;
+}
+.areas-previdenciario{
+    width: 500px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px;
+    text-align: justify;
+}
