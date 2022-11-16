@@ -1,0 +1,13 @@
+.container-localizacao{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.localizacao-button{
+    padding: 20px;
+}
+
+.localizacao-mapa{
+    padding: 20px;
+}

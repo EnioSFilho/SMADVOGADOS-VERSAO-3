@@ -1,12 +1,13 @@
 import React from 'react'
 import Header from '../../components/header/Header'
-import Header from '../../components/footer/Footer'
+import Footer from '../../components/footer/Footer'
+import Localizacao from '../../components/localizacao/Localizacao'
 
 function LocalizacaoTemplate() {
   return (
     <>
     <Header/>
-    <h1>localizacao teste</h1>
+    <Localizacao/>
     <Footer/>
     </>
   )
