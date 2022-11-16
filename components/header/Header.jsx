@@ -24,10 +24,10 @@ function Header() {
               <Nav className="justify-content-end flex-grow-1 pe-3">
                 <Nav.Link href="/">Início</Nav.Link>
                 <Nav.Link href="/areas">Áreas de Atuação</Nav.Link>               
-                <Nav.Link href="#action2">Artigos</Nav.Link>               
+                <Nav.Link href="/artigos">Artigos</Nav.Link>               
                 <Nav.Link href="/tribunais">Tribunais</Nav.Link>               
-                <Nav.Link href="#action2">Localização</Nav.Link>               
-                <Nav.Link href="#action2">Fale Conosco</Nav.Link>               
+                <Nav.Link href="/localizacao">Localização</Nav.Link>               
+                <Nav.Link href="/faleconosco">Fale Conosco</Nav.Link>               
               </Nav>             
             </Offcanvas.Body>
           </Navbar.Offcanvas>
