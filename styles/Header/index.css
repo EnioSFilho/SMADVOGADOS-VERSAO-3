@@ -1,0 +1,17 @@
+.botao{
+    background-color: aqua;
+}
+
+.input{
+    width: 475px;
+    border-radius: 10px;
+    border:1px solid blue;
+    border-color: blue;
+    
+}
+
+.text-area{
+    border-radius: 10px;
+    border:1px solid blue;
+    border-color: blue;
+}
