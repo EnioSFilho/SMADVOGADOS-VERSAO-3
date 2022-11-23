@@ -1,17 +1,12 @@
 import React, { useState } from 'react'
 import Image from "next/image"
-import emailjs from "@emailjs/browser"
+
 
 import { Container, Navbar, Offcanvas, Nav, NavDropdown, Form, Button, Modal, FloatingLabel } from "react-bootstrap"
 
 function Header() {
 
-
-
-
-
   return (
-
 
     <>
       {['md'].map((expand) => (
@@ -36,7 +31,7 @@ function Header() {
                   <Nav.Link href="/artigos">Artigos</Nav.Link>
                   <Nav.Link href="/tribunais">Tribunais</Nav.Link>
                   <Nav.Link href="/localizacao">Localização</Nav.Link>
-                  <Nav.Link href="/faleconosco">Localização</Nav.Link>
+                  <Nav.Link href="/faleconosco">Fale Conosco</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
