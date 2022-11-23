@@ -6,37 +6,10 @@ import { Container, Navbar, Offcanvas, Nav, NavDropdown, Form, Button, Modal, Fl
 
 function Header() {
 
-  
-  
-  const [show, setShow] = useState(false);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
 
-  const [name, setName] = useState("")
-  const [email, setEmail] = useState("")
-  const [message, setMessage] = useState("")
- 
 
-  function sendEmail() {
-   
-   
 
-  const templateParams = {
-    from_name: name,
-    email: email,
-    message: message
-  }
- 
- 
-  emailjs.sendForm('service_oc1teoh', 'template_clek55i', templateParams, 'xhhFuQY5XGpomRETE')
-      .then((result) => {
-          alert(result.text);
-      }, (error) => {
-          alert(error.text);
-      });
- }
 
-  
   return (
 
 
@@ -63,7 +36,7 @@ function Header() {
                   <Nav.Link href="/artigos">Artigos</Nav.Link>
                   <Nav.Link href="/tribunais">Tribunais</Nav.Link>
                   <Nav.Link href="/localizacao">Localização</Nav.Link>
-                  <Button variant='outline-primary' onClick={handleShow}>Fale Conosco</Button>
+                  <Nav.Link href="/faleconosco">Localização</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
@@ -72,90 +45,7 @@ function Header() {
 
 
       ))}
-      <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>Fale Conosco</Modal.Title>
-        </Modal.Header>
-        <Container >
-
-          <form className='form' onSubmit={sendEmail}>
-
-            <div>
-              <label className='label'>Nome</label>
-            </div>
-            <input
-              className='input'
-              type="text"
-              placeholder='Digite seu nome'
-              required
-              onChange={(e) => setName(e.target.value)}
-              value={name}
-            />
-
-            <div>
-              <label className='label'>Email</label>
-            </div>
-            <input
-              className='input'
-              type="text"
-              placeholder='Digite seu email'
-              required
-              onChange={(e) => setEmail(e.target.value)}
-              value={email}
-             
-            />
-            <div>
-              <label className='label'>Nome</label>
-            </div>
-            <textarea 
-            className='text-area'
-            rows="7"
-             cols="61"
-             name='mensagem'
-             placeholder='Digite sua mensagem'
-             required
-            onChange={(e) => setMessage(e.target.value)}
-            value={message}/>
-            
-            <div>
-               <Button className='mt-5 mb-5' variant='outline-primary' type='submit' >Enviar</Button>
-            </div>
-
-
-          </form>
-
-
-          {/* <Form >
-            
-            <Form.Group className="mb-3" controlId="">
-              <Form.Label>Nome</Form.Label>
-              <Form.Control type="text" placeholder="Digite seu nome aqui" required />
-            </Form.Group>
-
-            <Form.Group className="mb-3" controlId="formBasicEmail">
-              <Form.Label>Endereço de Email</Form.Label>
-              <Form.Control type="text" placeholder="Digite seu email aqui" required />
-            </Form.Group>
-
-
-            <FloatingLabel controlId="floatingTextarea2" label="Mensagem" placeholder='Escreva sua mensagem'>
-              <Form.Control
-                as="textarea"
-                placeholder="Leave a comment here"
-                style={{ height: '100px' }}
-              />
-            </FloatingLabel>
-
-
-
-            <Button variant="outline-primary" type="submit" className='mt-5 mb-5'>
-              Enviar mensagem
-            </Button>
-          </Form>  */}
-        </Container>
-
-
-      </Modal>
+      
 
     </>
   )
