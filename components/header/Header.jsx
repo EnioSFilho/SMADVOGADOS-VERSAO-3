@@ -1,10 +1,44 @@
 import React, { useState } from 'react'
 import Image from "next/image"
+import emailjs from "@emailjs/browser"
 
 
-import { Container, Navbar, Offcanvas, Nav, NavDropdown, Form, Button, Modal, FloatingLabel } from "react-bootstrap"
+import { Container, Navbar, Offcanvas, Nav, NavDropdown, Form, Button, Modal, FloatingLabel, InputGroup, FormLabel } from "react-bootstrap"
 
 function Header() {
+
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [message, setMessage] = useState("")
+
+
+  function sendEmail(event) {
+    event.preventDefault()
+
+    const templateParams = {
+      from_name: name,
+      email: email,
+      message: message
+    }
+
+    emailjs.send('service_oc1teoh', 'template_clek55i', templateParams, 'xhhFuQY5XGpomRETE')
+      .then((response) => {
+        console.log("deu certo", response.status, response.text);
+        setName("")
+        setEmail("")
+        setMessage("")
+        handleClose()
+
+
+      }, (error) => {
+        console.log("deu ruim", error);
+      });
+
+  }
 
   return (
 
@@ -31,7 +65,7 @@ function Header() {
                   <Nav.Link href="/artigos">Artigos</Nav.Link>
                   <Nav.Link href="/tribunais">Tribunais</Nav.Link>
                   <Nav.Link href="/localizacao">Localização</Nav.Link>
-                  <Nav.Link href="/faleconosco">Fale Conosco</Nav.Link>
+                  <Button variant='outline-primary' onClick={handleShow}>Fale Conosco</Button>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
@@ -40,7 +74,61 @@ function Header() {
 
 
       ))}
-      
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>Fale Conosco</Modal.Title>
+        </Modal.Header>
+        <Container>
+
+          <Form onSubmit={sendEmail}>
+            <FormLabel>Nome</FormLabel>
+            <InputGroup className="mb-3">
+              <Form.Control
+                placeholder="Digite seu nome"
+                type="text"
+                required
+                onChange={(e) => setName(e.target.value)}
+                value={name}
+              />
+            </InputGroup>
+
+            <FormLabel>Email</FormLabel>
+            <InputGroup className="mb-3">
+              <Form.Control
+               type="text"
+               placeholder='Digite seu email'
+               required
+               onChange={(e) => setEmail(e.target.value)}
+               value={email}
+              />
+
+            </InputGroup>
+
+
+
+            <FormLabel>Mensagem</FormLabel>
+            <InputGroup>
+              <Form.Control 
+              as="textarea"
+              className='lg'
+              placeholder='Digite sua mensagem'
+             required
+            onChange={(e) => setMessage(e.target.value)}
+            value={message}/>
+            </InputGroup>
+
+            <div>
+              <Button className='mt-5 mb-5' variant='outline-primary' type='submit' >Enviar</Button>
+            </div>
+          </Form>
+
+         
+
+
+        </Container>
+
+
+      </Modal>
 
     </>
   )
