@@ -1,11 +1,13 @@
 import React from 'react'
 import { Card, Button, } from "react-bootstrap"
 import Image from "next/image"
+import { ConstainerStyled } from '../main/main.styled'
 
 
 function Tribunais() {
   return (
     <>
+    <div className='adjust'>
     <div className='tribunais-title'>
     <h1>Tribunais</h1>
     </div>
@@ -23,10 +25,8 @@ function Tribunais() {
       </Card.Body>
     </Card>
         </div>
-        </container>
 
-    <container className="tribunais-container2">
-    <div>
+        <div>
         <Card style={{ width: '18rem' }}>
         <Card.Img src="/static/images/stj.jpeg" width="100" height="100" alt="Stj"/>
       <Card.Body>
@@ -39,8 +39,6 @@ function Tribunais() {
     </Card>
 
         </div>
-
-
         <div>
         <Card style={{ width: '18rem' }}>
         <Card.Img src="/static/images/trf3.jpeg" width="100" height="100" alt="TRF"/>
@@ -54,7 +52,6 @@ function Tribunais() {
     </Card>
 
         </div>
-
         <div>
         <Card style={{ width: '18rem' }}>
         <Card.Img src="/static/images/tjsp.jpeg" width="100" height="100" alt="tjsp"/>
@@ -68,8 +65,19 @@ function Tribunais() {
     </Card>
     
         </div>
+        </container>
+
+    <container className="tribunais-container2">
+   
+
+
+       
+
+       
 
     </container>
+
+    </div>
 
     </>
   )
