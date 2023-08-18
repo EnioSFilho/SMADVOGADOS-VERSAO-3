@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import "../styles/Footer/index.css"
-import "../styles/Main/index.css"
+import "../styles/Main/style.css"
 import "../styles/Areas/index.css"
 import "../styles/Tribunais/index.css"
 import "../styles/Localizacao/index.css"

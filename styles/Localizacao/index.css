@@ -1,3 +1,6 @@
+.adjust{ 
+    min-height: 55.1vh;
+}
 .container-localizacao{
     display: flex;
     flex-direction: column;

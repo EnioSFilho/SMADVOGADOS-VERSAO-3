@@ -1,8 +1,11 @@
 import React from 'react'
+import { ConstainerStyled } from '../main/main.styled'
 
 function MainAreas() {
   return (
     <>
+    <div className='adjust'>
+
     <div className='areas-title'>
       <h1>ÁREAS DE ATUAÇÃO</h1>
     </div>
@@ -20,6 +23,7 @@ function MainAreas() {
 
     </container>
     
+    </div>
     </>
   )
 }

@@ -1,6 +1,9 @@
-
+.adjust{
+        min-height: 55.1vh;
+}
 
 .puff-in-center h5 {
+        
     border: 2px solid blue;
     border-radius: 10px;
     padding: 30px;

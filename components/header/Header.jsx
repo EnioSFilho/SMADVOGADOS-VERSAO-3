@@ -55,14 +55,14 @@ function Header() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Offcanvas
+                  Menu
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link href="/">Início</Nav.Link>
                   <Nav.Link href="/areas">Áreas de Atuação</Nav.Link>
-                  <Nav.Link href="/artigos">Artigos</Nav.Link>
+                 
                   <Nav.Link href="/tribunais">Tribunais</Nav.Link>
                   <Nav.Link href="/localizacao">Localização</Nav.Link>
                   <Button variant='outline-primary' onClick={handleShow}>Fale Conosco</Button>

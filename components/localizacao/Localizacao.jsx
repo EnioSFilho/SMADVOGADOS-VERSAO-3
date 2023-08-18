@@ -1,9 +1,11 @@
 import React from 'react'
 import { Button } from 'react-bootstrap'
+import { ConstainerStyled } from '../main/main.styled'
 
 function Localizacao() {
   return (
     <>
+    <div className='adjust'>
     <h1 style={{textAlign: "center"}}>Localização</h1>
     <container className="container-localizacao">
     <div className='localizacao-mapa'>
@@ -19,6 +21,7 @@ function Localizacao() {
     <Button variant='outline-primary' href='https://g.page/r/Cehi3qJuAN8REAI/review'>Avalie Nosso Escritório</Button>
     </div>
     </container>
+    </div>
     </>
   )
 }

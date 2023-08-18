@@ -13,6 +13,8 @@ function Footer() {
   return (
 
     <>
+    
+
       <container>
         <div className='footer-icons'>
           <a id="you"onMouseOver={Evento1}   href=""><FaYoutube style={{ fontSize: "50px", color: "rgb(85, 103, 204)" }} /></a>
@@ -34,9 +36,7 @@ function Footer() {
             <a href=''>Direito Previdenciário</a>
             <a href=''>Direito Civil</a>
           </div>
-          <div>
-            <p>ARTIGOS</p>
-          </div>
+         
           <div>
             <p>TRIBUNAIS</p>
           </div>
