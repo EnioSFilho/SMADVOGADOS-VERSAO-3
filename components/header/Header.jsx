@@ -44,10 +44,10 @@ function Header() {
 
     <>
       {['md'].map((expand) => (
-        <Navbar key={expand} bg="dark" variant='dark' expand={expand} className="mb-3">
+        <Navbar key={expand} bg="dark" variant='dark' expand={expand} className="no-margin" style={{ backgroundImage: `url('/static/images/bunner2.png')`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat',position: 'fixed', width: '100%', top: 0, zIndex: 1 }}>
           <Container fluid>
             <Navbar.Brand href="#"><Image style={{ borderRadius: '10px' }} src="/static/images/logo.png" width="120" height="100" alt='Logo' /></Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} style={{ color: 'black' }} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
@@ -60,12 +60,12 @@ function Header() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="/">Início</Nav.Link>
-                  <Nav.Link href="/areas">Áreas de Atuação</Nav.Link>
+                  <Nav.Link href="/" style={{ color: 'white' }}>Início</Nav.Link>
+                  <Nav.Link href="/areas" style={{ color: 'white' }}>Áreas de Atuação</Nav.Link>
                  
-                  <Nav.Link href="/tribunais">Tribunais</Nav.Link>
-                  <Nav.Link href="/localizacao">Localização</Nav.Link>
-                  <Button variant='outline-primary' onClick={handleShow}>Fale Conosco</Button>
+                  <Nav.Link href="/tribunais" style={{ color: 'white' }}>Tribunais</Nav.Link>
+                  <Nav.Link href="/localizacao" style={{ color: 'white' }}>Localização</Nav.Link>
+                  <Button variant='primary' onClick={handleShow} >Fale Conosco</Button>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
@@ -114,7 +114,8 @@ function Header() {
               placeholder='Digite sua mensagem'
              required
             onChange={(e) => setMessage(e.target.value)}
-            value={message}/>
+            value={message} style={{ height: '150px' }}/>
+            
             </InputGroup>
 
             <div>

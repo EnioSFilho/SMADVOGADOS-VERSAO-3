@@ -1,5 +1,11 @@
 .adjust{
-        min-height: 55.1vh;
+        margin-top: 126px;
+        height: 80vh;
+        background-image: url('/static/images/couple.jpg');
+        background-size: 100% 100%; /* Largura e altura em pixels */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
 }
 
 .puff-in-center h5 {
