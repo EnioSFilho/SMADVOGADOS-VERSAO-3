@@ -16,7 +16,9 @@
         width: 80%;
 }
 
-
+.containerText{
+        min-height: 40vh;
+}
 
 .containerText h1 {
         width: 40vw;
@@ -26,6 +28,13 @@
 
 .containerText p{
         font-size: 20px;
+}
+
+@media (max-width: 446px){
+
+        .containerText h1{
+                font-size: 22px;
+        }
 }
 
 .puff-in-center h5 {

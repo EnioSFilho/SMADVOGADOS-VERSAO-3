@@ -1,0 +1,33 @@
+.containerMain2 {
+    margin: 0 auto;
+    width: 80%;
+    min-height: 100vh;
+    
+    justify-content: center;
+   
+}
+
+.containerCardsMain2 {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;    
+    justify-content: space-evenly;
+    
+    flex-wrap: wrap;
+
+}
+.textMain2{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+#photo {
+    
+    width: 380px; /* A imagem não excederá a largura do seu contêiner */
+    height: auto; /* A altura se ajustará automaticamente para manter a proporção */
+     /* Ajusta o tamanho da imagem para ocupar 100% da largura do contêiner */
+    border-radius: 10px;
+}

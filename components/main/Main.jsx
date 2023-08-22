@@ -1,5 +1,6 @@
 import React from 'react'
 import { ConstainerStyled } from './main.styled'
+import { ButtonBlue } from '../buttons/Button.styled'
 
 
 function Main() {
@@ -10,22 +11,22 @@ function Main() {
 
         <div className='containerText'>
           <div>
-          <h1>Converse com nossos advogados on-line, para que possamos lhe auxiliar em sua aposentadoria ou benefício previdenciário.</h1>
+            <h1>Converse com nossos advogados on-line, para que possamos lhe auxiliar em sua aposentadoria ou benefício previdenciário.</h1>
           </div>
           <div>
-          <p>Trabalhamos com profissionais especializados em direito previdenciário,<br></br>
-             para que você tenha a melhor assessoria.</p>
-             </div>
-             
-    <div>
-      <a>Fale com um Profissional</a>
-    </div>
+            <p>Trabalhamos com profissionais especializados em direito previdenciário,<br></br>
+              para que você tenha a melhor assessoria.</p>
+          </div>
+
+          <div>
+            <ButtonBlue>Fale com um profissional</ButtonBlue>
+          </div>
         </div>
 
 
 
       </div>
-      
+
 
     </div>
   )
