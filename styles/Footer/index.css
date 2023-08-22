@@ -1,16 +1,16 @@
 .footer-icons{
     display: flex;
     width: 100%;
-    border-top: 2px solid rgb(85, 103, 204); 
-    border-bottom: 2px solid rgb(85, 103, 204); 
-    background-color: rgb(230, 229, 228);
+    border-top: 2px solid #2C7AD8; 
+    border-bottom: 2px solid #2C7AD8; 
+    background-color: #E6F0FD;
     gap: 5%;
     justify-content: center;
 }
 .footer-footer{
     display: flex;
     justify-content: center;
-    background-color: rgb(230, 229, 228);
+    background-color: #E6F0FD;
    
 }
 
@@ -21,7 +21,7 @@
 .footer-acesso-rapido {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(230, 229, 228);
+    background-color: #E6F0FD;
     text-decoration: none;    
 }
 .footer-atuacao a{
@@ -33,9 +33,9 @@
   .footer-final{
     display: flex;
     justify-content: space-around;
-    background-color: rgb(230, 229, 228);
-    border-top: 2px solid rgb(85, 103, 204); 
-    border-bottom: 2px solid rgb(85, 103, 204); 
+    background-color: #E6F0FD;
+    border-top: 2px solid #2C7AD8; 
+    border-bottom: 2px solid #2C7AD8; 
     padding-top: 10px;
     flex-wrap: wrap;
    

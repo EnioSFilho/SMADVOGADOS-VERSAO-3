@@ -9,7 +9,8 @@ function Main2() {
           <div className='textMain2'>
             <h3>Faça sua consulta previdenciária</h3>
             <br />
-            <p>Qualquer pessoa que pretende ter um benefício previdenciário pode se beneficiar da nossa consulta jurídica. Atendemos trabalhadores da iniciativa privada ou servidores públicos com dúvidas sobre seus direitos previdenciários, com um benefício negado ou intenção de se organizar para pedir aposentadoria. Você terá atendimento de um especialista na área e receberá toda orientação necessária</p>
+            <p>Se você pretende solicitar um benefício previdenciário, faça o contato conosco. Nossos profissionais irão prestar todos os esclarecimentos necessários, caso queira obter algum benefício, aposentadoria ou mesmo que o pedido já feito tenha sido negado. Seja você um trabalhador da iniciativa privada ou um servidor público, podemos esclarecer todas as suas dúvidas e daremos a orientação necessaria.
+            </p>
           </div>
 
           <div>
@@ -25,18 +26,24 @@ function Main2() {
             <img src="/static/images/planejamento.jpg" alt="computador" id='photo' />
           </div>
           <div className='textMain2'>
-            <h3>Planejamento Previdenciário: o melhor resultado para sua aposentadoria</h3>
+            <h3>Cuidamos de seu planejamento previdenciário</h3>
             <br />
-            <p>Através desse estudo, traçamos um panorama completo da sua melhor aposentadoria: analisando a documentação, identificando todas as possibilidades de aumentar o valor do benefício, planejando contribuições e o momento exato de fazer o pedido, da forma mais vantajosa.</p>
+            <p>Faremos o estudo de seu caso, para orientar você na obtenção da eficiência em sua aposentadoria: Analisaremos seus documentos, e iremos traçar todas as possibilidades para que o valor de seu benefício seja o correto e justo. Vamos lhe orientar com o planejamento das contribuições, qual a forma que haja mais vantagem e o momento preciso de fazer o pedido.
+
+            </p>
           </div>
 
         </div>
 
         <div className='containerCardsMain2'>
           <div className='textMain2'>
-            <h3>Faça sua consulta previdenciária</h3>
+            <h3>Cuidamos de seus benefícios previdenciários</h3>
             <br />
-            <p>Qualquer pessoa que pretende ter um benefício previdenciário pode se beneficiar da nossa consulta jurídica. Atendemos trabalhadores da iniciativa privada ou servidores públicos com dúvidas sobre seus direitos previdenciários, com um benefício negado ou intenção de se organizar para pedir aposentadoria. Você terá atendimento de um especialista na área e receberá toda orientação necessária</p>
+            <p><b style={{color: "#2C7AD8"}}>Aposentadoria para trabalhador da iniciativa privada</b> – Nossa equipe é especialista na legislação previdenciária. Mesmo com todas as mudanças que ocorrem e já ocorreram, cuidamos do seu caso com toda atenção e cuidado.</p>
+            
+
+             <p><b style={{color: "#2C7AD8"}}> Servidores do setor público</b>  – Seja você servidor público da União, Estados ou Municípios, somos especialistas em atender o seu caso. As regras são diferentes para todos os casos e consideradas complexas, no entanto estamos aptos a resolver o seu caso.
+              </p>
           </div>
 
           <div>

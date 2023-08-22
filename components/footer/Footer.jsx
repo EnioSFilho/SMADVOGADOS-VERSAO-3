@@ -17,11 +17,11 @@ function Footer() {
 
       <container>
         <div className='footer-icons'>
-          <a id="you"onMouseOver={Evento1}   href=""><FaYoutube style={{ fontSize: "50px", color: "rgb(85, 103, 204)" }} /></a>
-          <a id="insta"onMouseOver={Evento2} href=""><FaInstagramSquare style={{ fontSize: "50px", color: "rgb(85, 103, 204)" }} /></a>
-          <a id='link' onMouseOver={Evento3}  href="https://www.linkedin.com/in/maria-let%C3%ADcia-bomfim-marques-782178104/" target='_blank'> <FaLinkedin style={{ fontSize: "50px", color: "rgb(85, 103, 204)" }} /></a>
-          <a  id='face' onMouseOver={Evento4} href="https://www.facebook.com/MariaBomfimAdvogada" target='_blank' ><FaFacebookSquare style={{ fontSize: "50px", color: "rgb(85, 103, 204)" }} /></a>
-          <a id='whats' onMouseOver={Evento5}  href="https://wa.me/5511997238693" target="_blank"> <FaWhatsappSquare style={{ fontSize: "50px", color: "rgb(85, 103, 204)" }} /></a>
+          <a id="you"onMouseOver={Evento1}   href=""><FaYoutube style={{ fontSize: "50px", color: "#2C7AD8" }} /></a>
+          <a id="insta"onMouseOver={Evento2} href=""><FaInstagramSquare style={{ fontSize: "50px", color: "#2C7AD8" }} /></a>
+          <a id='link' onMouseOver={Evento3}  href="https://www.linkedin.com/in/maria-let%C3%ADcia-bomfim-marques-782178104/" target='_blank'> <FaLinkedin style={{ fontSize: "50px", color: "#2C7AD8" }} /></a>
+          <a  id='face' onMouseOver={Evento4} href="https://www.facebook.com/MariaBomfimAdvogada" target='_blank' ><FaFacebookSquare style={{ fontSize: "50px", color: "#2C7AD8" }} /></a>
+          <a id='whats' onMouseOver={Evento5}  href="https://wa.me/5511997238693" target="_blank"> <FaWhatsappSquare style={{ fontSize: "50px", color: "#2C7AD8" }} /></a>
         </div>
         <div className='footer-footer'>
           <h4>ACESSO RÁPIDO</h4>
@@ -56,7 +56,7 @@ function Footer() {
           </div>
 
           <div className='footer-desenvolvedor'>
-            <a href='https://www.smadvogados.adv.br/enio.html' target="_black">© 2022 Desenvolvedor</a>
+            <a href='https://www.smadvogados.adv.br/enio.html' target="_black">© 2023 Desenvolvedor</a>
           </div>
 
           <div className='footer-email'>
