@@ -1,0 +1,28 @@
+.titleMain3{    
+    text-align: center;
+    color: #2C7AD8;
+    margin-top: 30px;
+    display: flex;
+   
+    
+}
+.titleMain3 h1{
+    font-weight: bolder;
+}
+.cardsMain3{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
+.textsCardsMain3 h4{
+margin-left: 30px;
+
+}
+.textsCardsMain3 p{
+ 
+    text-align: center;
+}
+.button{
+    text-align: center;
+}

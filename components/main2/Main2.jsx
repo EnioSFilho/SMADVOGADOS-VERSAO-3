@@ -47,7 +47,7 @@ function Main2() {
           </div>
 
           <div>
-            <img src="/static/images/consulta.jpg" alt="computador" id='photo' />
+            <img src="/static/images/beach.jpg" alt="computador" id='photo' />
           </div>
 
         </div>
