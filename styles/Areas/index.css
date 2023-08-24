@@ -1,30 +1,87 @@
-.adjust{
-    min-height: 55.1vh;
-    margin-top: 142px;
+.containerMainAreas2 {
+    margin-top: 126px;
+    height: 80vh;
+    background-image: url('/static/images/maos.jpg');
+    background-size: 100% 100%;        
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    
+
 }
 
-.areas-title{
-    display: flex;
-    justify-content: center;
+.containerInternalMain {        
+    margin: 0 auto;
+    width: 80%;
 }
-.areas-main{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+
+.containerText{
+    min-height: 40vh;
 }
-.areas-civil{
-    width: 500px;
+
+.containerText h1 {
+    width: 40vw;
+    font-size: 30px;
+    font-weight:bolder;
+}
+
+.containerText p{
+    font-size: 20px;
+}
+
+@media (max-width: 446px){
+
+    .containerText h1{
+            font-size: 22px;
+    }
+}
+
+.puff-in-center h5 {
+
     border: 2px solid blue;
     border-radius: 10px;
     padding: 30px;
-    margin: 10px;
+    margin: 0 !important;
+
     text-align: justify;
+    -webkit-animation: puff-in-center 2s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+    animation: puff-in-center 2s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
-.areas-previdenciario{
-    width: 500px;
-    border: 2px solid blue;
-    border-radius: 10px;
-    padding: 30px;
-    margin: 10px;
-    text-align: justify;
+
+
+@-webkit-keyframes puff-in-center {
+    0% {
+            -webkit-transform: scale(2);
+            transform: scale(2);
+            -webkit-filter: blur(4px);
+            filter: blur(4px);
+            opacity: 0;
+    }
+
+    100% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            -webkit-filter: blur(0px);
+            filter: blur(0px);
+            opacity: 1;
+    }
+}
+
+@keyframes puff-in-center {
+    0% {
+            -webkit-transform: scale(2);
+            transform: scale(2);
+            -webkit-filter: blur(4px);
+            filter: blur(4px);
+            opacity: 0;
+    }
+
+    100% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            -webkit-filter: blur(0px);
+            filter: blur(0px);
+            opacity: 1;
+    }
 }

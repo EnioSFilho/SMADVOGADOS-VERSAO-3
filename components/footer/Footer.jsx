@@ -29,7 +29,7 @@ function Footer() {
         <container className="footer-acesso-rapido">
           <div>
             <p>ÍNICIO</p>
-            <a href=''>Home</a>
+            <a href='/' style={{textDecoration: "none"}}>Home</a>
           </div>
           <div className='footer-atuacao'>
             <p>ÁREAS DE ATUAÇÃO</p>
@@ -56,12 +56,12 @@ function Footer() {
           </div>
 
           <div className='footer-desenvolvedor'>
-            <a href='https://www.smadvogados.adv.br/enio.html' target="_black">© 2023 Desenvolvedor</a>
+            <a href='https://www.smadvogados.adv.br/enio.html' target="_black" style={{textDecoration: "none"}}>© 2023 Desenvolvedor</a>
           </div>
 
           <div className='footer-email'>
-            <p>Email:</p>
-          <a href="mailto:leticia@smadvogados.adv.br">leticia@smadvogados.adv.br</a>
+            <p style={{marginRight: 10}}>Email:</p>
+          <a href="mailto:smadvogados@smadvogados.adv.br" style={{textDecoration: "none"}}>smadvogados@smadvogados.adv.br</a>
           </div>
 
         </container>

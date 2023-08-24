@@ -60,11 +60,16 @@ function Header() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="/" style={{ color: 'white' }}>Início</Nav.Link>
-                  <Nav.Link href="/areas" style={{ color: 'white' }}>Áreas de Atuação</Nav.Link>
-                 
-                  <Nav.Link href="/tribunais" style={{ color: 'white' }}>Tribunais</Nav.Link>
-                  <Nav.Link href="/localizacao" style={{ color: 'white' }}>Localização</Nav.Link>
+                  <Nav.Link href="/" style={{ color: '#2C7AD8', fontWeight: "bolder" }}>Início</Nav.Link>
+                  <NavDropdown title="Áreas de Atuação" id="basic-nav-dropdown"style={{ color: '#2C7AD8', fontWeight: "bolder" }}>
+              <NavDropdown.Item href="/">Direito Previdenciário</NavDropdown.Item>
+              <NavDropdown.Item href="/areas">
+                Direito Civil
+              </NavDropdown.Item>
+            
+            </NavDropdown>
+                  <Nav.Link href="/tribunais" style={{ color: '#2C7AD8', fontWeight: "bolder" }}>Tribunais</Nav.Link>
+                  <Nav.Link href="/localizacao" style={{ color: '#2C7AD8', fontWeight: "bolder" }}>Localização</Nav.Link>
                   <Button variant='primary' onClick={handleShow} >Fale Conosco</Button>
                 </Nav>
               </Offcanvas.Body>
