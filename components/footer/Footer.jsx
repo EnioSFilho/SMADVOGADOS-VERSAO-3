@@ -18,7 +18,7 @@ function Footer() {
       <container>
         <div className='footer-icons'>
           <a id="you"onMouseOver={Evento1}   href=""><FaYoutube style={{ fontSize: "50px", color: "#2C7AD8" }} /></a>
-          <a id="insta"onMouseOver={Evento2} href=""><FaInstagramSquare style={{ fontSize: "50px", color: "#2C7AD8" }} /></a>
+          <a id="insta"onMouseOver={Evento2} href="https://www.instagram.com/marialeticiabmarques/"><FaInstagramSquare style={{ fontSize: "50px", color: "#2C7AD8" }} /></a>
           <a id='link' onMouseOver={Evento3}  href="https://www.linkedin.com/in/maria-let%C3%ADcia-bomfim-marques-782178104/" target='_blank'> <FaLinkedin style={{ fontSize: "50px", color: "#2C7AD8" }} /></a>
           <a  id='face' onMouseOver={Evento4} href="https://www.facebook.com/MariaBomfimAdvogada" target='_blank' ><FaFacebookSquare style={{ fontSize: "50px", color: "#2C7AD8" }} /></a>
           <a id='whats' onMouseOver={Evento5}  href="https://wa.me/5511997238693" target="_blank"> <FaWhatsappSquare style={{ fontSize: "50px", color: "#2C7AD8" }} /></a>
