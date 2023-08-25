@@ -24,6 +24,7 @@ function Footer() {
           <a id='whats' onMouseOver={Evento5}  href="https://wa.me/5511997238693" target="_blank"> <FaWhatsappSquare style={{ fontSize: "50px", color: "#2C7AD8" }} /></a>
         </div>
         <div className='footer-footer'>
+          
           <h4>ACESSO RÁPIDO</h4>
         </div>
         <container className="footer-acesso-rapido">
