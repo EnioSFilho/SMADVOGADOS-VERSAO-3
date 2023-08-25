@@ -20,7 +20,7 @@ function MainAreas3() {
 Com anos de experiência, entendemos a importância de lidar com sensibilidade em assuntos familiares. Nosso compromisso é oferecer apoio jurídico que não apenas resolva questões legais, mas também promova o bem-estar emocional de todos os envolvidos. Seja qual for o desafio que você enfrenta, conte conosco para oferecer a expertise necessária para alcançar resoluções justas e equilibradas.  
                             </p>
                             <div className='button'>
-                                <ButtonBlue>Fale com um profissional</ButtonBlue>
+                                <ButtonBlue href="https://wa.me/5511997238693" target="_blank">Fale com um profissional</ButtonBlue>
                             </div>
                         </div>
                     </Cards>
@@ -32,7 +32,7 @@ Com anos de experiência, entendemos a importância de lidar com sensibilidade e
 Entendemos que questões sucessórias podem ser sensíveis e complexas. É por isso que buscamos abordagens personalizadas que atendam às suas necessidades e às de seus entes queridos. Nossa missão é proporcionar clareza e tranquilidade durante todo o processo, garantindo que suas decisões sejam refletidas de maneira legal sólida. 
                             </p>
                             <div className='button'>
-                                <ButtonBlue>Fale com um profissional</ButtonBlue>
+                                <ButtonBlue href="https://wa.me/5511997238693" target="_blank">Fale com um profissional</ButtonBlue>
                             </div>
                         </div>
                     </Cards>
@@ -46,7 +46,7 @@ Entendemos que questões sucessórias podem ser sensíveis e complexas. É por i
 Entendemos que a propriedade envolve complexidades legais que podem ser desafiadoras. É por isso que nossa abordagem é centrada na resolução de problemas, sempre visando resultados que atendam às suas expectativas. Seja a busca por transações suaves ou a resolução de conflitos, nossa equipe está pronta para defender seus interesses com rigor jurídico. 
                             </p>
                             <div className='button'>
-                                <ButtonBlue>Fale com um profissional</ButtonBlue>
+                                <ButtonBlue href="https://wa.me/5511997238693" target="_blank">Fale com um profissional</ButtonBlue>
                             </div>
                         </div>
                     </Cards>
@@ -59,7 +59,7 @@ Entendemos que a propriedade envolve complexidades legais que podem ser desafiad
 Entendemos que, como consumidor, você merece proteção contra práticas injustas. Nossa abordagem proativa visa não apenas resolver problemas, mas também prevenir potenciais dificuldades, proporcionando-lhe a confiança necessária em suas interações comerciais. 
                             </p>
                             <div className='button'>
-                                <ButtonBlue>Fale com um profissional</ButtonBlue>
+                                <ButtonBlue href="https://wa.me/5511997238693" target="_blank">Fale com um profissional</ButtonBlue>
                             </div>
                         </div>
                     </Cards>

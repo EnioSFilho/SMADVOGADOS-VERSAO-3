@@ -20,7 +20,7 @@ function Main3() {
                                 Oferecemos uma abordagem personalizada, pois sabemos que cada indivíduo tem necessidades únicas. Seja você um trabalhador assalariado, autônomo ou servidor público, nossa equipe está preparada para lidar com as complexidades específicas do seu caso. Com experiência sólida em legislação previdenciária, estamos aptos a orientar você em relação às melhores opções de aposentadoria, como por idade, tempo de contribuição e outras modalidades.
                             </p>
                             <div className='button'>
-                                <ButtonBlue>Fale com um profissional</ButtonBlue>
+                                <ButtonBlue href="https://wa.me/5511997238693" target="_blank" >Fale com um profissional</ButtonBlue>
                             </div>
                         </div>
                     </Cards>
@@ -32,7 +32,7 @@ function Main3() {
                                 A revisão de aposentadoria é um processo complexo que exige expertise jurídica. Nossos profissionais estão atualizados com as mudanças nas leis e regulamentos, permitindo que você se beneficie de quaisquer alterações que possam ter ocorrido desde a sua concessão. Seja uma revisão por tempo de contribuição, inclusão de períodos especiais ou qualquer outra possibilidade, estamos preparados para agir em seu nome.
                             </p>
                             <div className='button'>
-                                <ButtonBlue>Fale com um profissional</ButtonBlue>
+                                <ButtonBlue href="https://wa.me/5511997238693" target="_blank">Fale com um profissional</ButtonBlue>
                             </div>
                         </div>
                     </Cards>
@@ -46,7 +46,7 @@ function Main3() {
                                 Nossos serviços abrangem uma ampla gama de benefícios previdenciários, incluindo aposentadorias por idade, tempo de contribuição e por invalidez. Além disso, oferecemos auxílio-doença, auxílio-acidente, pensão por morte e outros auxílios fundamentais. Compreendemos que cada caso é único, e é por isso que nossa abordagem é personalizada, visando proporcionar orientação legal precisa e soluções eficazes.
                             </p>
                             <div className='button'>
-                                <ButtonBlue>Fale com um profissional</ButtonBlue>
+                                <ButtonBlue href="https://wa.me/5511997238693" target="_blank">Fale com um profissional</ButtonBlue>
                             </div>
                         </div>
                     </Cards>
@@ -59,7 +59,7 @@ function Main3() {
                                 Seja auxílio-doença, auxílio-acidente, salário-maternidade ou outros benefícios, nossa experiência em legislação previdenciária nos capacita a orientá-lo e representá-lo da melhor maneira possível. Sabemos que a papelada e os trâmites burocráticos podem ser esmagadores, por isso estamos aqui para assumir esse fardo e garantir que você receba o suporte financeiro que merece.Nossa abordagem é pautada na atenção individualizada a cada cliente. Ao entendermos suas necessidades e circunstâncias, podemos oferecer orientação precisa e eficaz.
                             </p>
                             <div className='button'>
-                                <ButtonBlue>Fale com um profissional</ButtonBlue>
+                                <ButtonBlue href="https://wa.me/5511997238693" target="_blank">Fale com um profissional</ButtonBlue>
                             </div>
                         </div>
                     </Cards>

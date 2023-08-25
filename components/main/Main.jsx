@@ -19,7 +19,7 @@ function Main() {
           </div>
 
           <div>
-            <ButtonBlue>Fale com um profissional</ButtonBlue>
+            <ButtonBlue href="https://wa.me/5511997238693" target="_blank">Fale com um profissional</ButtonBlue>
           </div>
         </div>
 
