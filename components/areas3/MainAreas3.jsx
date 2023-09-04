@@ -26,7 +26,7 @@ Com anos de experiência, entendemos a importância de lidar com sensibilidade e
                     </Cards>
                     <Cards>
                         <div className='textsCardsMain3'>
-                            <h4 style={{ fontWeight: "bold" }}>DIREITO SUCESSÓRIO</h4>
+                            <h4 style={{ fontWeight: "bold"}}>DIREITO SUCESSÓRIO</h4>
                             <p> Apresentamos nossos serviços especializados em assessoria sucessória, dedicados a garantir que seu patrimônio e legado sejam preservados de acordo com suas vontades. Compreendemos a importância de planejar a transferência de bens e ativos de maneira eficaz e sem complicações. Nossa equipe de profissionais experientes está pronta para oferecer orientação estratégica em testamentos, heranças e distribuição equitativa.
 
 Entendemos que questões sucessórias podem ser sensíveis e complexas. É por isso que buscamos abordagens personalizadas que atendam às suas necessidades e às de seus entes queridos. Nossa missão é proporcionar clareza e tranquilidade durante todo o processo, garantindo que suas decisões sejam refletidas de maneira legal sólida. 
