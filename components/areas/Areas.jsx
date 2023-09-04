@@ -19,7 +19,7 @@ function MainAreas() {
           </div>
 
           <div>
-            <ButtonBlueArea href="https://wa.me/5511997238693" target="_blank">Fale com um profissional</ButtonBlueArea>
+            <button className='buttonBlueArea' href="https://wa.me/5511997238693" target="_blank">Fale com um profissional</button>
             
           </div>
         </div>

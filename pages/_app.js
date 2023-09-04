@@ -6,6 +6,7 @@ import "../styles/Tribunais/index.css"
 import "../styles/Localizacao/index.css"
 import "../styles/Main2/style.css"
 import "../styles/Main3/style.css"
+import "../styles/areas3/style.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'animate.css';
 
