@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { ButtonBlue } from '../buttons/Button.styled'
+import { ButtonBlue, ButtonBlueArea } from '../buttons/Button.styled'
 
 
 function MainAreas() {
@@ -19,7 +19,8 @@ function MainAreas() {
           </div>
 
           <div>
-            <ButtonBlue href="https://wa.me/5511997238693" target="_blank">Fale com um profissional</ButtonBlue>
+            <ButtonBlueArea href="https://wa.me/5511997238693" target="_blank">Fale com um profissional</ButtonBlueArea>
+            
           </div>
         </div>
 
