@@ -6,9 +6,13 @@ import Main from '../../components/main/Main'
 import Main2 from '../../components/main2/Main2'
 import Main3 from '../../components/main3/Main3'
 
+
+
+
 function HomeTemplate() {
   return (
    <>
+   
    <Header/>
    <Main/>
    <Main2/>
