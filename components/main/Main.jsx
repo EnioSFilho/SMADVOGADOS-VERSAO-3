@@ -11,7 +11,7 @@ function Main() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowModal(true);
-    }, 5000);
+    }, 10000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -45,7 +45,7 @@ function Main() {
 
       <div className='containerInternalMain'>
         <div className='containerText'>
-          <div>
+          <div>          
             <h1>Converse com nossos advogados on-line, para que possamos lhe auxiliar em sua aposentadoria ou benefício previdenciário.</h1>
           </div>
           <div>

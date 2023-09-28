@@ -9,6 +9,7 @@ import "../styles/Main3/style.css"
 import "../styles/areas3/style.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'animate.css';
+import 'animate.css';
 
 
 function MyApp({ Component, pageProps }) {

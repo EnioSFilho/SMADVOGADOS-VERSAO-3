@@ -1,28 +1,50 @@
-.titleMain3{    
-    text-align: center;
-    color: #2C7AD8;
-    margin-top: 30px;
-    display: flex;
-   
-    
+.titleMain3 {
+  text-align: center;
+  color: #2C7AD8;
+  margin-top: 30px;
+  display: flex;
 }
-.titleMain3 h1{
-    font-weight: bolder;
-}
-.cardsMain3{
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;    
-    align-items: center;
-}
-.textsCardsMain3 h4{
-margin-left: 30px;
 
+.titleMain3 h1 {
+  font-weight: bolder;
 }
-.textsCardsMain3 p{
- 
-    text-align: center;
+
+.cardsMain3 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.button{
-    text-align: center;
+
+.textsCardsMain3 h4 {
+  margin-left: 30px;
+}
+
+.textsCardsMain3 p {
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+}
+
+/* Adicione essas regras CSS ao seu arquivo de estilos */
+.cardsMain3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card-animation {
+  opacity: 0;
+  transform: translateX(-30px); /* Inicialmente, mova os Cards para a esquerda */
+  animation: slide-in 0.5s ease-in-out forwards;
+  animation-delay: 1000ms;
+}
+
+@keyframes slide-in {
+  to {
+    opacity: 1;
+    transform: translateX(0); /* Centralize os Cards */
+  }
 }
